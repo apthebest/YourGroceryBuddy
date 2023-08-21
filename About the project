@@ -1,0 +1,10 @@
+# YourGroceryBuddy
+-Built a grocery list app which enables a user to keep track of the items that are to be 
+bought.
+- User can insert the product and quantity of that product, which will be reflected in the
+table below. 
+- Allows the user to remove a specific entry from the table or clear all the entries at once.
+- Allows the user to edit a specific entry from the table.
+- Allows the user to give the feeback which will be displayed at the bottom of the page
+- created a feeback form using react.js
+- React.js was used along with HTML, CSS, JavaScript.
