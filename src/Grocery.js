@@ -6,7 +6,7 @@ import {FaShoppingCart} from 'react-icons/fa'
 
 function getLocalStorage()
 {
-  let list=localStorage.getItem('list');
+  let list = localStorage.getItem('list');
   if(list){
     return JSON.parse(list);
   }
@@ -28,9 +28,9 @@ function Grocery() {
       if(!value||!quantity){
      showAlert(true,'danger','please Enter All fields!!!')
     }
-      else if(value&&isEditing){
+      else if(value && isEditing){
         
-        const newList=list.map((item)=>{
+        const newList = list.map((item)=>{
           if(item.id === editId){
             return {...item , title : value,quantity : quantity};
           }

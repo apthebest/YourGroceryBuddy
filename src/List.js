@@ -9,8 +9,7 @@ const List = ({items,removeItem,editItem}) => {
           const {id,title,quantity}=item;
           
           return <div key={id} className='grocery-item'>
-              <p className='title'>{title}({quantity})
-              </p>
+              <p className='title'>{title}({quantity}) </p>
               {/* <span className='quantity'>({quantity})</span> */}
 
            

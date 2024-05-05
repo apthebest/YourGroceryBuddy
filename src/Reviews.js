@@ -72,7 +72,7 @@ function Reviews() {
         </button>
 
       </div>
-           <Link to="/addReviews" className='review-link'>Add A Review</Link>
+           
     </section>
   );
 }
